@@ -6,7 +6,7 @@ use Illuminate\Container\Container;
 use Illuminate\Database\Seeder;
 use Illuminate\Support\Facades\DB;
 
-class ContentTableSeeder extends Seeder
+class ContentsTableSeeder extends Seeder
 {
     /**
      * Run the database seeds.
@@ -18,7 +18,7 @@ class ContentTableSeeder extends Seeder
         for ($i = 0; $i < 50; $i++) {
             $names = ['Jos', 'Thomas', 'Maarten', 'Arjan'];
 
-            DB::table('content')->insert([
+            DB::table('contents')->insert([
                 'title' => 'Wie is hier nou de hosting!?',
                 'image' => 'https://media.tenor.com/jf2rMCZMYv0AAAAC/snackbar-new-kids.gif',
                 'value' => $names[array_rand($names)]  . ' approves this message.'
