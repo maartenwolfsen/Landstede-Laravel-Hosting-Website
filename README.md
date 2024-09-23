@@ -4,6 +4,8 @@
 <ol>
     <li><code>git@github.com:maartenwolfsen/landstede-laravel-api.git</code> clone de repository</li>
     <li><code>cd mapnaam</code> Ga de cloned map in</li>
+    <li><code>sudo apt install php-xml</code> Installeer de XML package voor PHP</li>
+    <li><code>composer update</code> Update de Composer packages</li>
     <li><code>composer install</code> Installeer de Composer packages</li>
     <li><code>npm install</code> Installeer de NPM packages</li>
     <li><code>cp .env.example .env</code> Kopieer de .env file naar een eigen file</li>
